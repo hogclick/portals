@@ -1,0 +1,966 @@
+2025-07-08 14:12:24,059 - __main__ - INFO - \u0411\u043e\u0442 \u0437\u0430\u043f\u0443\u0449\u0435\u043d. \u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0445 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0439...
+2025-07-08 14:12:41,329 - __main__ - INFO - \u0411\u043e\u0442 \u0437\u0430\u043f\u0443\u0449\u0435\u043d. \u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0445 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0439...
+2025-07-08 14:13:07,864 - __main__ - INFO - \u0411\u043e\u0442 \u0437\u0430\u043f\u0443\u0449\u0435\u043d. \u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0445 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0439...
+2025-07-08 14:13:24,991 - __main__ - INFO - \u0411\u043e\u0442 \u0437\u0430\u043f\u0443\u0449\u0435\u043d. \u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0445 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0439...
+2025-07-08 14:14:15,968 - __main__ - INFO - \u0411\u043e\u0442 \u0437\u0430\u043f\u0443\u0449\u0435\u043d. \u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0445 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0439...
+2025-07-08 14:14:48,911 - __main__ - INFO - \u0411\u043e\u0442 \u0437\u0430\u043f\u0443\u0449\u0435\u043d. \u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0445 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0439...
+2025-07-08 14:16:02,749 - __main__ - INFO - \u0411\u043e\u0442 \u0437\u0430\u043f\u0443\u0449\u0435\u043d. \u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0445 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0439...
+2025-07-08 14:16:58,358 - __main__ - INFO - \u0411\u043e\u0442 \u0437\u0430\u043f\u0443\u0449\u0435\u043d. \u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0445 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0439...
+2025-07-08 14:17:26,358 - __main__ - INFO - \u0411\u043e\u0442 \u0437\u0430\u043f\u0443\u0449\u0435\u043d. \u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0445 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0439...
+2025-07-08 14:18:14,733 - __main__ - INFO - \u0417\u0430\u043f\u0443\u0441\u043a \u0431\u043e\u0442\u0430...
+2025-07-08 14:18:14,733 - __main__ - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0435 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0439: 'Bot' object has no attribute 'get_business_connections'
+2025-07-08 14:18:14,733 - aiogram.dispatcher - INFO - Start polling
+2025-07-08 14:18:14,947 - aiogram.dispatcher - INFO - Run polling for bot @gusdhgsdbot id=8186871053 - 'goida'
+2025-07-08 14:18:23,211 - aiogram.event - INFO - Update id=97219223 is not handled. Duration 399 ms by bot id=8186871053
+2025-07-08 14:18:23,211 - aiogram.event - ERROR - Cause exception while process update id=97219223 by bot id=8186871053
+TelegramBadRequest: Telegram server says - Bad Request: BUSINESS_CONNECTION_INVALID
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\\u0433\u043e\u0442\u043e\u0432\u044b\u0435\test\bot.py", line 312, in handle_business
+    gifts = await bot.get_business_account_gifts(business_id, exclude_unique=False)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 5069, in get_business_account_gifts
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: BUSINESS_CONNECTION_INVALID
+2025-07-08 14:18:26,025 - aiogram.event - INFO - Update id=97219224 is handled. Duration 209 ms by bot id=8186871053
+2025-07-08 14:18:43,162 - aiogram.event - INFO - Update id=97219225 is handled. Duration 832 ms by bot id=8186871053
+2025-07-08 14:19:01,522 - aiogram.event - INFO - Update id=97219227 is not handled. Duration 0 ms by bot id=8186871053
+2025-07-08 14:19:02,077 - aiogram.event - INFO - Update id=97219226 is handled. Duration 2419 ms by bot id=8186871053
+2025-07-08 14:20:46,593 - __main__ - INFO - \u0417\u0430\u043f\u0443\u0441\u043a \u0431\u043e\u0442\u0430...
+2025-07-08 14:20:46,593 - __main__ - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0435 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0439: 'Bot' object has no attribute 'get_business_connections'
+2025-07-08 14:20:46,593 - aiogram.dispatcher - INFO - Start polling
+2025-07-08 14:20:46,802 - aiogram.dispatcher - INFO - Run polling for bot @gusdhgsdbot id=8186871053 - 'goida'
+2025-07-08 14:20:46,876 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:20:46,876 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8186871053)
+2025-07-08 14:20:50,954 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:20:50,954 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8186871053)
+2025-07-08 14:20:52,021 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:20:52,021 - aiogram.dispatcher - WARNING - Sleep for 1.244403 seconds and try again... (tryings = 1, bot id = 8186871053)
+2025-07-08 14:20:56,331 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:20:56,331 - aiogram.dispatcher - WARNING - Sleep for 1.240449 seconds and try again... (tryings = 1, bot id = 8186871053)
+2025-07-08 14:20:57,687 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:20:57,687 - aiogram.dispatcher - WARNING - Sleep for 1.594134 seconds and try again... (tryings = 2, bot id = 8186871053)
+2025-07-08 14:21:02,358 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:21:02,358 - aiogram.dispatcher - WARNING - Sleep for 1.685028 seconds and try again... (tryings = 2, bot id = 8186871053)
+2025-07-08 14:21:04,118 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:21:04,118 - aiogram.dispatcher - WARNING - Sleep for 2.040138 seconds and try again... (tryings = 3, bot id = 8186871053)
+2025-07-08 14:21:09,232 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:21:09,232 - aiogram.dispatcher - WARNING - Sleep for 2.151503 seconds and try again... (tryings = 3, bot id = 8186871053)
+2025-07-08 14:21:10,725 - aiogram.dispatcher - INFO - Connection established (tryings = 4, bot id = 8186871053)
+2025-07-08 14:21:10,921 - aiogram.event - INFO - Update id=97219228 is handled. Duration 195 ms by bot id=8186871053
+2025-07-08 14:21:11,463 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:21:11,463 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8186871053)
+2025-07-08 14:21:15,534 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:21:15,534 - aiogram.dispatcher - WARNING - Sleep for 2.927716 seconds and try again... (tryings = 4, bot id = 8186871053)
+2025-07-08 14:21:18,551 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:21:18,551 - aiogram.dispatcher - WARNING - Sleep for 1.437865 seconds and try again... (tryings = 1, bot id = 8186871053)
+2025-07-08 14:21:20,143 - aiogram.dispatcher - INFO - Connection established (tryings = 2, bot id = 8186871053)
+2025-07-08 14:21:20,336 - aiogram.event - INFO - Update id=97219229 is handled. Duration 193 ms by bot id=8186871053
+2025-07-08 14:21:23,059 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:21:23,059 - aiogram.dispatcher - WARNING - Sleep for 3.658693 seconds and try again... (tryings = 5, bot id = 8186871053)
+2025-07-08 14:21:26,796 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:21:26,797 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8186871053)
+2025-07-08 14:21:30,866 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:21:30,866 - aiogram.dispatcher - WARNING - Sleep for 4.734329 seconds and try again... (tryings = 6, bot id = 8186871053)
+2025-07-08 14:21:35,676 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:21:35,676 - aiogram.dispatcher - WARNING - Sleep for 1.259913 seconds and try again... (tryings = 1, bot id = 8186871053)
+2025-07-08 14:21:40,012 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:21:40,012 - aiogram.dispatcher - WARNING - Sleep for 5.167432 seconds and try again... (tryings = 7, bot id = 8186871053)
+2025-07-08 14:21:41,518 - aiogram.dispatcher - INFO - Connection established (tryings = 2, bot id = 8186871053)
+2025-07-08 14:21:41,783 - aiogram.event - INFO - Update id=97219230 is not handled. Duration 264 ms by bot id=8186871053
+2025-07-08 14:21:41,783 - aiogram.event - ERROR - Cause exception while process update id=97219230 by bot id=8186871053
+TelegramBadRequest: Telegram server says - Bad Request: BUSINESS_CONNECTION_INVALID
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\\u0433\u043e\u0442\u043e\u0432\u044b\u0435\test\bot.py", line 312, in handle_business
+    stars = await bot.get_business_account_star_balance(business_id)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 5069, in get_business_account_gifts
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: BUSINESS_CONNECTION_INVALID
+2025-07-08 14:21:42,646 - aiogram.event - INFO - Update id=97219231 is handled. Duration 193 ms by bot id=8186871053
+2025-07-08 14:21:45,261 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:21:45,261 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8186871053)
+2025-07-08 14:21:49,342 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:21:49,342 - aiogram.dispatcher - WARNING - Sleep for 4.997870 seconds and try again... (tryings = 8, bot id = 8186871053)
+2025-07-08 14:21:54,421 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:21:54,421 - aiogram.dispatcher - WARNING - Sleep for 1.241460 seconds and try again... (tryings = 1, bot id = 8186871053)
+2025-07-08 14:21:58,731 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:21:58,731 - aiogram.dispatcher - WARNING - Sleep for 5.031912 seconds and try again... (tryings = 9, bot id = 8186871053)
+2025-07-08 14:22:02,765 - aiogram.dispatcher - INFO - Connection established (tryings = 2, bot id = 8186871053)
+2025-07-08 14:22:02,969 - aiogram.event - INFO - Update id=97219232 is handled. Duration 203 ms by bot id=8186871053
+2025-07-08 14:22:03,839 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:22:03,840 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8186871053)
+2025-07-08 14:22:04,713 - aiogram.dispatcher - INFO - Connection established (tryings = 10, bot id = 8186871053)
+2025-07-08 14:22:05,228 - aiogram.event - INFO - Update id=97219233 is handled. Duration 515 ms by bot id=8186871053
+2025-07-08 14:22:05,611 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 8186871053)
+2025-07-08 14:22:06,001 - aiogram.event - INFO - Update id=97219234 is handled. Duration 388 ms by bot id=8186871053
+2025-07-08 14:22:07,914 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:22:07,914 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8186871053)
+2025-07-08 14:22:08,988 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:22:08,988 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8186871053)
+2025-07-08 14:22:13,059 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:22:13,059 - aiogram.dispatcher - WARNING - Sleep for 1.222351 seconds and try again... (tryings = 1, bot id = 8186871053)
+2025-07-08 14:22:13,691 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 8186871053)
+2025-07-08 14:22:14,352 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:22:14,352 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8186871053)
+2025-07-08 14:22:14,539 - aiogram.event - INFO - Update id=97219235 is handled. Duration 848 ms by bot id=8186871053
+2025-07-08 14:22:18,425 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:22:18,425 - aiogram.dispatcher - WARNING - Sleep for 1.569493 seconds and try again... (tryings = 2, bot id = 8186871053)
+2025-07-08 14:22:20,068 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:22:20,068 - aiogram.dispatcher - WARNING - Sleep for 1.327015 seconds and try again... (tryings = 1, bot id = 8186871053)
+2025-07-08 14:22:22,125 - aiogram.dispatcher - INFO - Connection established (tryings = 2, bot id = 8186871053)
+2025-07-08 14:22:23,643 - aiogram.event - INFO - Update id=97219236 is handled. Duration 1517 ms by bot id=8186871053
+2025-07-08 14:22:24,468 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:22:24,468 - aiogram.dispatcher - WARNING - Sleep for 2.051602 seconds and try again... (tryings = 3, bot id = 8186871053)
+2025-07-08 14:22:26,601 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:22:26,601 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8186871053)
+2025-07-08 14:22:30,667 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:22:30,667 - aiogram.dispatcher - WARNING - Sleep for 2.672491 seconds and try again... (tryings = 4, bot id = 8186871053)
+2025-07-08 14:22:33,426 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:22:33,426 - aiogram.dispatcher - WARNING - Sleep for 1.444894 seconds and try again... (tryings = 1, bot id = 8186871053)
+2025-07-08 14:22:37,956 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:22:37,956 - aiogram.dispatcher - WARNING - Sleep for 3.507528 seconds and try again... (tryings = 5, bot id = 8186871053)
+2025-07-08 14:22:41,538 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-08 14:22:41,538 - aiogram.dispatcher - WARNING - Sleep for 1.826748 seconds and try again... (tryings = 2, bot id = 8186871053)
+2025-07-08 14:22:53,444 - aiogram.dispatcher - INFO - Connection established (tryings = 3, bot id = 8186871053)
+2025-07-08 14:26:37,657 - __main__ - INFO - \u0417\u0430\u043f\u0443\u0441\u043a \u0431\u043e\u0442\u0430...
+2025-07-08 14:26:37,657 - __main__ - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0435 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0439: 'Bot' object has no attribute 'get_business_connections'
+2025-07-08 14:26:37,657 - aiogram.dispatcher - INFO - Start polling
+2025-07-08 14:26:37,872 - aiogram.dispatcher - INFO - Run polling for bot @gusdhgsdbot id=8186871053 - 'goida'
+2025-07-08 14:28:01,156 - aiogram.event - INFO - Update id=97219237 is handled. Duration 351 ms by bot id=8186871053
+2025-07-08 14:28:02,303 - aiogram.event - INFO - Update id=97219238 is handled. Duration 376 ms by bot id=8186871053
+2025-07-08 14:28:03,630 - aiogram.event - INFO - Update id=97219239 is handled. Duration 388 ms by bot id=8186871053
+2025-07-08 14:28:39,706 - __main__ - INFO - \u0417\u0430\u043f\u0443\u0441\u043a \u0431\u043e\u0442\u0430...
+2025-07-08 14:28:39,707 - __main__ - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0435 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0439: 'Bot' object has no attribute 'get_business_connections'
+2025-07-08 14:28:39,707 - aiogram.dispatcher - INFO - Start polling
+2025-07-08 14:28:39,958 - aiogram.dispatcher - INFO - Run polling for bot @gusdhgsdbot id=8186871053 - 'goida'
+2025-07-08 14:28:40,470 - aiogram.event - INFO - Update id=97219240 is not handled. Duration 425 ms by bot id=8186871053
+2025-07-08 14:28:40,470 - aiogram.event - ERROR - Cause exception while process update id=97219240 by bot id=8186871053
+TelegramBadRequest: Telegram server says - Bad Request: BUSINESS_CONNECTION_INVALID
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\\u0433\u043e\u0442\u043e\u0432\u044b\u0435\test\bot.py", line 312, in handle_business
+    gifts = await bot.get_business_account_gifts(business_id, exclude_unique=False)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 5069, in get_business_account_gifts
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: BUSINESS_CONNECTION_INVALID
+2025-07-08 14:30:14,196 - aiogram.event - INFO - Update id=97219241 is handled. Duration 205 ms by bot id=8186871053
+2025-07-08 14:34:39,724 - __main__ - INFO - \u0417\u0430\u043f\u0443\u0441\u043a \u0431\u043e\u0442\u0430...
+2025-07-08 14:34:39,724 - __main__ - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0435 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0439: 'Bot' object has no attribute 'get_business_connections'
+2025-07-08 14:34:39,724 - aiogram.dispatcher - INFO - Start polling
+2025-07-08 14:34:39,961 - aiogram.dispatcher - INFO - Run polling for bot @gusdhgsdbot id=8186871053 - 'goida'
+2025-07-08 14:34:40,386 - aiogram.event - INFO - Update id=97219242 is handled. Duration 347 ms by bot id=8186871053
+2025-07-08 14:34:51,460 - aiogram.event - INFO - Update id=97219243 is handled. Duration 197 ms by bot id=8186871053
+2025-07-08 14:34:52,934 - aiogram.event - INFO - Update id=97219244 is handled. Duration 455 ms by bot id=8186871053
+2025-07-08 14:34:54,192 - aiogram.event - INFO - Update id=97219245 is handled. Duration 392 ms by bot id=8186871053
+2025-07-08 14:34:55,638 - aiogram.event - INFO - Update id=97219246 is handled. Duration 404 ms by bot id=8186871053
+2025-07-08 14:34:56,516 - aiogram.event - INFO - Update id=97219247 is handled. Duration 386 ms by bot id=8186871053
+2025-07-08 14:35:05,860 - aiogram.event - INFO - Update id=97219248 is handled. Duration 858 ms by bot id=8186871053
+2025-07-08 14:35:13,466 - aiogram.event - INFO - Update id=97219250 is not handled. Duration 0 ms by bot id=8186871053
+2025-07-08 14:35:14,033 - aiogram.event - INFO - Update id=97219249 is handled. Duration 2485 ms by bot id=8186871053
+2025-07-08 15:06:06,973 - __main__ - INFO - \u0417\u0430\u043f\u0443\u0441\u043a \u0431\u043e\u0442\u0430...
+2025-07-08 15:06:06,973 - __main__ - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0435 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0439: 'Bot' object has no attribute 'get_business_connections'
+2025-07-08 15:06:06,974 - aiogram.dispatcher - INFO - Start polling
+2025-07-08 15:06:07,193 - aiogram.dispatcher - INFO - Run polling for bot @gusdhgsdbot id=8186871053 - 'goida'
+2025-07-08 15:07:18,962 - aiogram.event - INFO - Update id=97219259 is handled. Duration 308 ms by bot id=8186871053
+2025-07-08 15:07:23,843 - aiogram.event - INFO - Update id=97219260 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:07:25,392 - aiogram.event - INFO - Update id=97219261 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:07:25,953 - aiogram.event - INFO - Update id=97219262 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:07:27,187 - aiogram.event - INFO - Update id=97219263 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:07:28,471 - aiogram.event - INFO - Update id=97219264 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:07:29,970 - aiogram.event - INFO - Update id=97219265 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:07:30,663 - aiogram.event - INFO - Update id=97219266 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:07:32,570 - aiogram.event - INFO - Update id=97219267 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:07:33,733 - aiogram.event - INFO - Update id=97219268 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:07:34,460 - aiogram.event - INFO - Update id=97219269 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:07:35,864 - aiogram.event - INFO - Update id=97219270 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:07:36,539 - aiogram.event - INFO - Update id=97219271 is handled. Duration 180 ms by bot id=8186871053
+2025-07-08 15:07:40,921 - aiogram.event - INFO - Update id=97219272 is handled. Duration 191 ms by bot id=8186871053
+2025-07-08 15:08:15,096 - aiogram.event - INFO - Update id=97219273 is handled. Duration 369 ms by bot id=8186871053
+2025-07-08 15:08:16,163 - aiogram.event - INFO - Update id=97219274 is handled. Duration 365 ms by bot id=8186871053
+2025-07-08 15:08:20,916 - aiogram.event - INFO - Update id=97219275 is handled. Duration 191 ms by bot id=8186871053
+2025-07-08 15:08:50,331 - aiogram.event - INFO - Update id=97219276 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:08:51,454 - aiogram.event - INFO - Update id=97219277 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:08:52,970 - aiogram.event - INFO - Update id=97219278 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:08:55,272 - aiogram.event - INFO - Update id=97219279 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:08:56,310 - aiogram.event - INFO - Update id=97219280 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:08:58,182 - aiogram.event - INFO - Update id=97219281 is handled. Duration 370 ms by bot id=8186871053
+2025-07-08 15:08:58,485 - aiogram.event - INFO - Update id=97219282 is handled. Duration 172 ms by bot id=8186871053
+2025-07-08 15:08:59,214 - aiogram.event - INFO - Update id=97219283 is handled. Duration 376 ms by bot id=8186871053
+2025-07-08 15:09:00,685 - aiogram.event - INFO - Update id=97219284 is handled. Duration 354 ms by bot id=8186871053
+2025-07-08 15:09:01,597 - aiogram.event - INFO - Update id=97219285 is handled. Duration 369 ms by bot id=8186871053
+2025-07-08 15:09:27,337 - aiogram.event - INFO - Update id=97219286 is handled. Duration 174 ms by bot id=8186871053
+2025-07-08 15:09:31,435 - aiogram.event - INFO - Update id=97219287 is handled. Duration 179 ms by bot id=8186871053
+2025-07-08 15:09:57,652 - aiogram.event - INFO - Update id=97219288 is not handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:10:33,091 - aiogram.event - INFO - Update id=97219289 is handled. Duration 179 ms by bot id=8186871053
+2025-07-08 15:10:41,746 - aiogram.event - INFO - Update id=97219290 is handled. Duration 373 ms by bot id=8186871053
+2025-07-08 15:10:58,484 - aiogram.event - INFO - Update id=97219291 is handled. Duration 179 ms by bot id=8186871053
+2025-07-08 15:11:08,870 - aiogram.event - INFO - Update id=97219292 is handled. Duration 196 ms by bot id=8186871053
+2025-07-08 15:11:10,234 - aiogram.event - INFO - Update id=97219293 is handled. Duration 172 ms by bot id=8186871053
+2025-07-08 15:11:23,546 - aiogram.event - INFO - Update id=97219294 is handled. Duration 184 ms by bot id=8186871053
+2025-07-08 15:13:24,861 - aiogram.event - INFO - Update id=97219295 is handled. Duration 404 ms by bot id=8186871053
+2025-07-08 15:13:30,733 - aiogram.event - INFO - Update id=97219296 is handled. Duration 357 ms by bot id=8186871053
+2025-07-08 15:13:31,895 - aiogram.event - INFO - Update id=97219297 is handled. Duration 375 ms by bot id=8186871053
+2025-07-08 15:13:32,688 - aiogram.event - INFO - Update id=97219298 is handled. Duration 370 ms by bot id=8186871053
+2025-07-08 15:30:34,631 - __main__ - INFO - \u0417\u0430\u043f\u0443\u0441\u043a \u0431\u043e\u0442\u0430...
+2025-07-08 15:30:34,631 - __main__ - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0435 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0439: 'Bot' object has no attribute 'get_business_connections'
+2025-07-08 15:30:34,631 - aiogram.dispatcher - INFO - Start polling
+2025-07-08 15:30:34,875 - aiogram.dispatcher - INFO - Run polling for bot @gusdhgsdbot id=8186871053 - 'goida'
+2025-07-08 15:30:47,995 - aiogram.event - INFO - Update id=97219299 is handled. Duration 333 ms by bot id=8186871053
+2025-07-08 15:30:50,912 - aiogram.event - INFO - Update id=97219300 is handled. Duration 564 ms by bot id=8186871053
+2025-07-08 15:30:52,477 - aiogram.event - INFO - Update id=97219301 is handled. Duration 563 ms by bot id=8186871053
+2025-07-08 15:30:56,917 - aiogram.event - INFO - Update id=97219302 is handled. Duration 575 ms by bot id=8186871053
+2025-07-08 15:31:56,475 - aiogram.event - INFO - Update id=97219303 is handled. Duration 569 ms by bot id=8186871053
+2025-07-08 15:32:06,862 - aiogram.event - INFO - Update id=97219304 is handled. Duration 563 ms by bot id=8186871053
+2025-07-08 15:32:29,239 - aiogram.event - INFO - Update id=97219305 is handled. Duration 187 ms by bot id=8186871053
+2025-07-08 15:32:33,204 - aiogram.event - INFO - Update id=97219306 is handled. Duration 196 ms by bot id=8186871053
+2025-07-08 15:32:35,357 - aiogram.event - INFO - Update id=97219307 is handled. Duration 552 ms by bot id=8186871053
+2025-07-08 15:32:36,756 - aiogram.event - INFO - Update id=97219308 is handled. Duration 570 ms by bot id=8186871053
+2025-07-08 15:32:39,714 - aiogram.event - INFO - Update id=97219309 is handled. Duration 564 ms by bot id=8186871053
+2025-07-08 15:33:28,142 - aiogram.event - INFO - Update id=97219310 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:36:32,587 - aiogram.event - INFO - Update id=97219311 is handled. Duration 191 ms by bot id=8186871053
+2025-07-08 15:36:41,877 - aiogram.event - INFO - Update id=97219312 is handled. Duration 570 ms by bot id=8186871053
+2025-07-08 15:36:47,235 - aiogram.event - INFO - Update id=97219313 is handled. Duration 561 ms by bot id=8186871053
+2025-07-08 15:36:56,862 - aiogram.event - INFO - Update id=97219314 is handled. Duration 191 ms by bot id=8186871053
+2025-07-08 15:37:02,395 - aiogram.event - INFO - Update id=97219315 is handled. Duration 552 ms by bot id=8186871053
+2025-07-08 15:37:03,229 - aiogram.event - INFO - Update id=97219316 is handled. Duration 556 ms by bot id=8186871053
+2025-07-08 15:37:08,996 - aiogram.event - INFO - Update id=97219317 is handled. Duration 582 ms by bot id=8186871053
+2025-07-08 15:37:57,570 - aiogram.event - INFO - Update id=97219318 is handled. Duration 567 ms by bot id=8186871053
+2025-07-08 15:38:22,656 - aiogram.event - INFO - Update id=97219319 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:38:26,300 - aiogram.event - INFO - Update id=97219320 is handled. Duration 200 ms by bot id=8186871053
+2025-07-08 15:38:28,308 - aiogram.event - INFO - Update id=97219321 is handled. Duration 574 ms by bot id=8186871053
+2025-07-08 15:38:29,452 - aiogram.event - INFO - Update id=97219322 is handled. Duration 563 ms by bot id=8186871053
+2025-07-08 15:40:23,691 - __main__ - INFO - \u0417\u0430\u043f\u0443\u0441\u043a \u0431\u043e\u0442\u0430...
+2025-07-08 15:40:23,692 - __main__ - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0435 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0439: 'Bot' object has no attribute 'get_business_connections'
+2025-07-08 15:40:23,692 - aiogram.dispatcher - INFO - Start polling
+2025-07-08 15:40:23,951 - aiogram.dispatcher - INFO - Run polling for bot @gusdhgsdbot id=8186871053 - 'goida'
+2025-07-08 15:40:24,355 - aiogram.event - INFO - Update id=97219323 is handled. Duration 321 ms by bot id=8186871053
+2025-07-08 15:40:24,475 - aiogram.event - INFO - Update id=97219324 is handled. Duration 361 ms by bot id=8186871053
+2025-07-08 15:40:26,193 - aiogram.event - INFO - Update id=97219325 is handled. Duration 574 ms by bot id=8186871053
+2025-07-08 15:40:28,183 - aiogram.event - INFO - Update id=97219326 is handled. Duration 890 ms by bot id=8186871053
+2025-07-08 15:40:55,788 - aiogram.event - INFO - Update id=97219327 is handled. Duration 587 ms by bot id=8186871053
+2025-07-08 15:41:04,182 - aiogram.event - INFO - Update id=97219328 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:41:24,031 - aiogram.event - INFO - Update id=97219329 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:41:25,240 - aiogram.event - INFO - Update id=97219330 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:41:26,521 - aiogram.event - INFO - Update id=97219331 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:41:29,945 - aiogram.event - INFO - Update id=97219332 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:41:30,622 - aiogram.event - INFO - Update id=97219333 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:41:31,043 - aiogram.event - INFO - Update id=97219334 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:41:32,043 - aiogram.event - INFO - Update id=97219335 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:41:34,224 - aiogram.event - INFO - Update id=97219336 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:41:35,869 - aiogram.event - INFO - Update id=97219337 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:41:37,226 - aiogram.event - INFO - Update id=97219338 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:41:38,057 - aiogram.event - INFO - Update id=97219339 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:41:39,817 - aiogram.event - INFO - Update id=97219340 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:41:40,416 - aiogram.event - INFO - Update id=97219341 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:41:41,277 - aiogram.event - INFO - Update id=97219342 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:41:50,049 - aiogram.event - INFO - Update id=97219343 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:41:51,930 - aiogram.event - INFO - Update id=97219344 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:41:52,669 - aiogram.event - INFO - Update id=97219345 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:41:53,860 - aiogram.event - INFO - Update id=97219346 is handled. Duration 192 ms by bot id=8186871053
+2025-07-08 15:41:55,156 - aiogram.event - INFO - Update id=97219347 is handled. Duration 176 ms by bot id=8186871053
+2025-07-08 15:43:41,749 - aiogram.event - INFO - Update id=97219348 is handled. Duration 197 ms by bot id=8186871053
+2025-07-08 15:43:45,683 - aiogram.event - INFO - Update id=97219349 is handled. Duration 539 ms by bot id=8186871053
+2025-07-08 15:43:47,542 - aiogram.event - INFO - Update id=97219350 is handled. Duration 579 ms by bot id=8186871053
+2025-07-08 15:43:49,367 - aiogram.event - INFO - Update id=97219351 is handled. Duration 544 ms by bot id=8186871053
+2025-07-08 15:45:02,726 - aiogram.event - INFO - Update id=97219352 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:45:04,903 - aiogram.event - INFO - Update id=97219353 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 15:45:05,542 - aiogram.event - INFO - Update id=97219354 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 16:17:30,706 - aiogram.event - INFO - Update id=97219355 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 16:19:14,320 - aiogram.event - INFO - Update id=97219356 is handled. Duration 335 ms by bot id=8186871053
+2025-07-08 16:21:20,583 - aiogram.event - INFO - Update id=97219357 is handled. Duration 0 ms by bot id=8186871053
+2025-07-08 16:47:11,944 - aiogram.event - INFO - Update id=97219358 is handled. Duration 738 ms by bot id=8186871053
+2025-07-08 17:06:29,530 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-07-08 17:06:29,530 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8186871053)
+2025-07-08 17:06:40,742 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 8186871053)
+2025-07-08 17:11:36,985 - aiogram.event - INFO - Update id=97219359 is handled. Duration 359 ms by bot id=8186871053
+2025-07-08 17:23:53,099 - aiogram.event - INFO - Update id=97219360 is handled. Duration 194 ms by bot id=8186871053
+2025-07-09 06:34:44,661 - __main__ - INFO - \u0417\u0430\u043f\u0443\u0441\u043a \u0431\u043e\u0442\u0430...
+2025-07-09 06:34:44,661 - __main__ - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0435 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0439: 'Bot' object has no attribute 'get_business_connections'
+2025-07-09 06:34:44,661 - aiogram.dispatcher - INFO - Start polling
+2025-07-09 06:34:44,869 - aiogram.dispatcher - INFO - Run polling for bot @gusdhgsdbot id=8186871053 - 'goida'
+2025-07-09 06:34:51,778 - aiogram.event - INFO - Update id=97219382 is handled. Duration 339 ms by bot id=8186871053
+2025-07-09 06:34:53,292 - aiogram.event - INFO - Update id=97219383 is handled. Duration 582 ms by bot id=8186871053
+2025-07-09 06:34:54,340 - aiogram.event - INFO - Update id=97219384 is handled. Duration 666 ms by bot id=8186871053
+2025-07-09 06:34:55,333 - aiogram.event - INFO - Update id=97219385 is handled. Duration 545 ms by bot id=8186871053
+2025-07-09 06:35:03,217 - aiogram.event - INFO - Update id=97219386 is not handled. Duration 249 ms by bot id=8186871053
+2025-07-09 06:35:03,217 - aiogram.event - ERROR - Cause exception while process update id=97219386 by bot id=8186871053
+TelegramBadRequest: Telegram server says - Bad Request: BUSINESS_CONNECTION_INVALID
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\bot\test\bot.py", line 294, in handle_business
+    gifts = await bot.get_business_account_gifts(business_id, exclude_unique=False)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 5069, in get_business_account_gifts
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: BUSINESS_CONNECTION_INVALID
+2025-07-09 06:35:10,646 - aiogram.event - INFO - Update id=97219387 is handled. Duration 822 ms by bot id=8186871053
+2025-07-09 06:35:23,143 - aiogram.event - INFO - Update id=97219388 is not handled. Duration 240 ms by bot id=8186871053
+2025-07-09 06:35:23,143 - aiogram.event - ERROR - Cause exception while process update id=97219388 by bot id=8186871053
+TelegramBadRequest: Telegram server says - Bad Request: BUSINESS_CONNECTION_INVALID
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\bot\test\bot.py", line 294, in handle_business
+    gifts = await bot.get_business_account_gifts(business_id, exclude_unique=False)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 5069, in get_business_account_gifts
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: BUSINESS_CONNECTION_INVALID
+2025-07-09 06:35:30,302 - aiogram.event - INFO - Update id=97219389 is handled. Duration 880 ms by bot id=8186871053
+2025-07-09 06:36:09,382 - aiogram.event - INFO - Update id=97219390 is handled. Duration 191 ms by bot id=8186871053
+2025-07-09 06:36:10,936 - aiogram.event - INFO - Update id=97219391 is handled. Duration 544 ms by bot id=8186871053
+2025-07-09 06:36:11,968 - aiogram.event - INFO - Update id=97219392 is handled. Duration 547 ms by bot id=8186871053
+2025-07-09 06:36:12,988 - aiogram.event - INFO - Update id=97219393 is handled. Duration 544 ms by bot id=8186871053
+2025-07-09 06:36:17,662 - aiogram.event - INFO - Update id=97219394 is not handled. Duration 291 ms by bot id=8186871053
+2025-07-09 06:36:17,663 - aiogram.event - ERROR - Cause exception while process update id=97219394 by bot id=8186871053
+TelegramBadRequest: Telegram server says - Bad Request: BUSINESS_CONNECTION_INVALID
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\bot\test\bot.py", line 294, in handle_business
+    gifts = await bot.get_business_account_gifts(business_id, exclude_unique=False)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 5069, in get_business_account_gifts
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: BUSINESS_CONNECTION_INVALID
+2025-07-09 06:36:49,267 - aiogram.event - INFO - Update id=97219395 is handled. Duration 186 ms by bot id=8186871053
+2025-07-09 06:36:50,588 - aiogram.event - INFO - Update id=97219396 is handled. Duration 544 ms by bot id=8186871053
+2025-07-09 06:36:51,469 - aiogram.event - INFO - Update id=97219397 is handled. Duration 546 ms by bot id=8186871053
+2025-07-09 06:36:52,545 - aiogram.event - INFO - Update id=97219398 is handled. Duration 538 ms by bot id=8186871053
+2025-07-09 06:37:05,866 - aiogram.event - INFO - Update id=97219399 is handled. Duration 833 ms by bot id=8186871053
+2025-07-09 06:37:54,929 - aiogram.event - INFO - Update id=97219400 is not handled. Duration 244 ms by bot id=8186871053
+2025-07-09 06:37:54,929 - aiogram.event - ERROR - Cause exception while process update id=97219400 by bot id=8186871053
+TelegramBadRequest: Telegram server says - Bad Request: BUSINESS_CONNECTION_INVALID
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\bot\test\bot.py", line 294, in handle_business
+    gifts = await bot.get_business_account_gifts(business_id, exclude_unique=False)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 5069, in get_business_account_gifts
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: BUSINESS_CONNECTION_INVALID
+2025-07-09 06:38:01,401 - aiogram.event - INFO - Update id=97219401 is handled. Duration 820 ms by bot id=8186871053
+2025-07-09 06:38:37,238 - aiogram.event - INFO - Update id=97219402 is handled. Duration 187 ms by bot id=8186871053
+2025-07-09 06:38:38,932 - aiogram.event - INFO - Update id=97219403 is handled. Duration 542 ms by bot id=8186871053
+2025-07-09 06:38:39,912 - aiogram.event - INFO - Update id=97219404 is handled. Duration 549 ms by bot id=8186871053
+2025-07-09 06:38:41,064 - aiogram.event - INFO - Update id=97219405 is handled. Duration 539 ms by bot id=8186871053
+2025-07-09 06:38:48,700 - aiogram.event - INFO - Update id=97219406 is not handled. Duration 260 ms by bot id=8186871053
+2025-07-09 06:38:48,700 - aiogram.event - ERROR - Cause exception while process update id=97219406 by bot id=8186871053
+TelegramBadRequest: Telegram server says - Bad Request: BUSINESS_CONNECTION_INVALID
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\bot\test\bot.py", line 294, in handle_business
+    gifts = await bot.get_business_account_gifts(business_id, exclude_unique=False)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 5069, in get_business_account_gifts
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: BUSINESS_CONNECTION_INVALID
+2025-07-09 06:39:19,033 - aiogram.event - INFO - Update id=97219407 is handled. Duration 201 ms by bot id=8186871053
+2025-07-09 06:39:20,447 - aiogram.event - INFO - Update id=97219408 is handled. Duration 549 ms by bot id=8186871053
+2025-07-09 06:39:27,650 - aiogram.event - INFO - Update id=97219409 is handled. Duration 820 ms by bot id=8186871053
+2025-07-09 06:39:58,800 - aiogram.event - INFO - Update id=97219410 is not handled. Duration 240 ms by bot id=8186871053
+2025-07-09 06:39:58,800 - aiogram.event - ERROR - Cause exception while process update id=97219410 by bot id=8186871053
+TelegramBadRequest: Telegram server says - Bad Request: BUSINESS_CONNECTION_INVALID
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\bot\test\bot.py", line 294, in handle_business
+    gifts = await bot.get_business_account_gifts(business_id, exclude_unique=False)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 5069, in get_business_account_gifts
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: BUSINESS_CONNECTION_INVALID
+2025-07-09 06:40:00,487 - aiogram.event - INFO - Update id=97219411 is handled. Duration 569 ms by bot id=8186871053
+2025-07-09 06:40:07,579 - aiogram.event - INFO - Update id=97219412 is handled. Duration 808 ms by bot id=8186871053
+2025-07-09 06:40:13,478 - aiogram.event - INFO - Update id=97219413 is not handled. Duration 243 ms by bot id=8186871053
+2025-07-09 06:40:13,478 - aiogram.event - ERROR - Cause exception while process update id=97219413 by bot id=8186871053
+TelegramBadRequest: Telegram server says - Bad Request: BUSINESS_CONNECTION_INVALID
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\bot\test\bot.py", line 294, in handle_business
+    gifts = await bot.get_business_account_gifts(business_id, exclude_unique=False)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 5069, in get_business_account_gifts
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: BUSINESS_CONNECTION_INVALID
+2025-07-09 06:40:19,715 - aiogram.event - INFO - Update id=97219414 is handled. Duration 843 ms by bot id=8186871053
